@@ -1,0 +1,54 @@
+O que aprendemos?
+
+Aprendemos a realizar o mapeamento de dados com a função array_map
+Conhecemos a função array_filter para filtrar dados de um array
+Aprendemos a reduzir uma lista a um único dado com array_reduce
+Aprendemos a ordenar arrays com as funções sort e usort
+
+// 1. O script começa importando um array de dados (`$dados`).
+//2. Conta o número de países presentes no array e exibe no console.
+//3. Declara uma função para converter o nome dos países para letras maiúsculas.
+//4. Aplica essa função a cada país do array usando `array_map`.
+//5. Por fim, exibe o array modificado, onde todos os nomes dos países estão em letras maiúsculas.
+
+// closures é uma função que recebe o escopo externo já a class closures representa qualquer função anonima
+
+Uma High Order Function ou função de alta ordem,
+não é um termo que traduz muito bem, uma High Order Function
+é uma função que ou recebe uma outra função por parâmetro ou,
+como no nosso caso, retorna uma outra função, ou seja,
+é uma função que trabalha com outras funções,
+seja recebendo por parâmetro ou devolvendo no retorno.
+Nosso dividirPor é uma High Order Function.
+
+
+curryind -> Com isso, fizemos o processo de currying,
+que é uma palavra difícil de falar, temos uma função
+e transformou ela numa função curryind,
+que são várias funções que recebe um parâmetro e devolve outra função,
+recebe um parâmetro e devolve outra função até ter todos os dados para
+calcular o que tem que calcular.
+
+
+ Quando utilizamos uma aplicação de função curryind para fixar
+  um parâmetro o nome dessa técnica é partial application ou aplicação parcial.
+
+
+  Muitos conceitos já foram aprendidos até aqui,
+   mas me arrisco dizer que os mais importantes são
+    "first-class functions", "high-order functions" e funções puras.
+
+  Funções puras já sabemos o que são.
+
+  "First-class functions" também. É ter funções como um tipo,
+   podendo passar funções por parâmetros, retornar funções, etc.
+
+  "High-order functions" são funções que operam sobre outras funções,
+   ou seja, funções que recebem outras por parâmetro, ou que retornam novas funções.
+    HOF são bastante comuns em programação funcional.
+
+  Agora um outro conceito, o de curried functions: Uma função "curried",
+   ao invés de receber vários parâmetros, recebe um parâmetro por vez,
+    retornando outra função que recebe um parâmetro também, e assim em diante.
+
+
