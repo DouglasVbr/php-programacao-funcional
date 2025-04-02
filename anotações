@@ -52,3 +52,19 @@ calcular o que tem que calcular.
     retornando outra função que recebe um parâmetro também, e assim em diante.
 
 
+    crtl + alt + L = reformata as linhas
+
+    pipeline, uma espécie de linha de execução de funções.
+
+    A diferença entre compose e pipe é a ordem na qual as funções vão ser
+     executadas. Aqui no nosso caso, funcionaria da mesma forma,
+      se o filtro de países sem espaço no nome acontecer antes de colocar
+       os nomes em letras maiúsculas, nenhum problema vai acontecer.
+
+     Basicamente, uma função chamada compose, via de regra,
+      executa as funções da direita para esquerda.
+
+     Já uma função chamada pipe executa da esquerda para direita,
+      ou seja, da primeira para última e não da última para a primeira.
+
+
